@@ -1,18 +1,19 @@
 {
-  "name": "sample-mqtt-server",
+  "name": "sample-mqtt-client",
   "version": "1.0.0",
-  "description": "sample-mqtt-server",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "aedes": "^0.39.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  },
   "scripts": {
-    "dev": "nodemon index.js"
+    "pub": "nodemon publish.js",
+    "sub": "nodemon subscribe.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
