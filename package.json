@@ -1,0 +1,29 @@
+{
+  "name": "portfoliokaline",
+  "version": "1.0.0",
+  "description": "My own portfolio, because help me find a good job.",
+  "main": "main.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaline/PortfolioKaline.git"
+  },
+  "keywords": [
+    "Job",
+    "Interview",
+    "market",
+    "code"
+  ],
+  "author": "Kaline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaline/PortfolioKaline/issues"
+  },
+  "homepage": "https://github.com/kaline/PortfolioKaline#readme"
+}
