@@ -1,38 +1,42 @@
-
-
-#text{
-   font-weight: unset;
-
+#text {
+  font-weight: unset;
 }
 
-#projects{
-    margin-left: 20px;
+#projects {
+  margin-left: 20px;
+  margin-top: 50px ;
 }
-#phraseJanis{
-    margin-left: 20px;
+#phraseJanis {
+  margin-left: 20px;
+  margin-top: 10px;
 }
-#subtitle{
-    margin-left: 20px;
+#subtitle {
+  margin-left: 20px;
+}
 
+#footer{
+   margin-top: 200px;
+   
+   
 }
 html {
-    font-size: 1rem;
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
   }
-  
-  @include media-breakpoint-up(sm) {
-    html {
-      font-size: 1.2rem;
-    }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
   }
-  
-  @include media-breakpoint-up(md) {
-    html {
-      font-size: 1.4rem;
-    }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
   }
-  
-  @include media-breakpoint-up(lg) {
-    html {
-      font-size: 1.6rem;
-    }
-  }
+}
