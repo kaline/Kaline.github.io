@@ -1,13 +1,18 @@
 body{
     margin: 50px;
 }
+
 #text {
   font-weight: unset;
 }
 
-#projects {
-  margin-left: 20px;
-  margin-top: 50px ;
+
+#talks{
+    margin-top: 550px;
+}
+#scholarship{
+    margin-top: 550px;
+
 }
 #phraseJanis {
   margin-left: 20px;
@@ -25,11 +30,20 @@ body{
     margin-top: 200px;
 }
 
-#iottalk, #iotsinopse{
-    width: 500px;
-    height: 500px;
-   
 
+#iottalk, #iotsinopse{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+#projects,#organization{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#publicopy, #finalpy, #amigosFoto, #contestFoto{
+    width: 400px;
+    height: 400px;
 }
 html {
   font-size: 1rem;
