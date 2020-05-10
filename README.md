@@ -18,3 +18,5 @@ I created this minimalist portfolio to you, if you want to know my professional 
 <hr>
 
 ### References
+
+<a href="https://docs.google.com/document/d/1jDtKKtsYGe1YZ6e_-Q9x3bEbbxfEE5BNCRObWfMoKLE">My CV</a>
