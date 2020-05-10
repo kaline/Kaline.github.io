@@ -7,8 +7,7 @@ app.use(express.static(path.join('public')));
 app.use("/css", express.static('css'));
 app.use("/html", express.static('html'));
 
-const hostname =  '127.0.0.1';
-const port = 3000;
+
 
 app.get('/', function(req, res){
 	res.sendFile(path.join('public' +'index.html'));
@@ -22,6 +21,6 @@ app.get('projects', function(res, req){
 
 
 
-app.listen(port, hostname, () => {
-	console.log('Server running at http:///', hostname + ':' + port);
+var port = app.listen(process.env.PORT || 3000, () => {
+	app.listen(port);
 });
